@@ -1,0 +1,1 @@
+SOAP-stands for Simple Object Access Control, and it is an XML based protocol for exchanging information between computers.

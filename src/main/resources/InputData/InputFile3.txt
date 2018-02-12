@@ -1,0 +1,6 @@
+The common tests performed on API’s
+
+Verification of the API whether it is updating any data structure
+Verify if the API does not return anything
+Based on input conditions, returned values from the API’s are checked
+Verification of the API whether it triggers some other event or calls another API

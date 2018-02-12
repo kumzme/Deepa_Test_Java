@@ -1,0 +1,581 @@
+2018-02-10 11:09:43 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:09:43 INFO  Common_Functions:29 - .idea
+2018-02-10 11:09:43 INFO  Common_Functions:29 - Log
+2018-02-10 11:09:43 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:09:43 INFO  Common_Functions:29 - src
+2018-02-10 11:09:43 INFO  Common_Functions:29 - target
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:09:43 INFO  Common_Functions:69 - 31
+2018-02-10 11:09:43 INFO  Common_Functions:69 - 33
+2018-02-10 11:09:43 INFO  Common_Functions:69 - 39
+2018-02-10 11:09:43 INFO  Common_Functions:69 - 50
+2018-02-10 11:09:43 INFO  AA:25 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:09:43 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:09:43 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:09:43 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:09:43 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 6::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 10::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 11::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 19::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 26::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 28::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 29::<!--
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 30::    <build>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 31::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 32::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 33::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 34::        <resources>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 35::            <resource>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 36::                <directory>resources</directory>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 37::            </resource>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 38::            <resource>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 39::                <directory>src/main/resources</directory>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 40::            </resource>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 41::        </resources>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 42::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 43::        <plugins>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 44::            <plugin>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 45::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 46::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 47::                <version>2.14.1</version>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 48::                <configuration>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 49::                    <systemPropertyVariables>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 50::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 51::                    </systemPropertyVariables>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 52::                </configuration>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 53::            </plugin>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 54::        </plugins>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 55::    </build>
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 56::-->
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 57::
+2018-02-10 11:09:43 INFO  Common_Functions:43 - 58::</project>
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:09:43 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:10:46 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:10:46 INFO  Common_Functions:29 - .idea
+2018-02-10 11:10:46 INFO  Common_Functions:29 - Log
+2018-02-10 11:10:46 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:10:46 INFO  Common_Functions:29 - src
+2018-02-10 11:10:46 INFO  Common_Functions:29 - target
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:10:46 INFO  Common_Functions:69 - 30
+2018-02-10 11:10:46 INFO  Common_Functions:69 - 32
+2018-02-10 11:10:46 INFO  Common_Functions:69 - 38
+2018-02-10 11:10:46 INFO  Common_Functions:69 - 49
+2018-02-10 11:10:46 INFO  AA:25 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:10:46 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:10:46 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:10:46 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:10:46 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 6::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 10::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 11::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 19::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 26::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 28::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 31::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 41::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 50::                    </systemPropertyVariables>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 51::                </configuration>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 52::            </plugin>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 53::        </plugins>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 54::    </build>
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 55::
+2018-02-10 11:10:46 INFO  Common_Functions:43 - 56::</project>
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:10:46 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:10:53 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:10:53 INFO  Common_Functions:29 - .idea
+2018-02-10 11:10:53 INFO  Common_Functions:29 - Log
+2018-02-10 11:10:53 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:10:53 INFO  Common_Functions:29 - src
+2018-02-10 11:10:53 INFO  Common_Functions:29 - target
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:10:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:10:53 INFO  Common_Functions:69 - 30
+2018-02-10 11:10:53 INFO  Common_Functions:69 - 32
+2018-02-10 11:10:53 INFO  Common_Functions:69 - 38
+2018-02-10 11:10:53 INFO  Common_Functions:69 - 49
+2018-02-10 11:10:53 INFO  AA:25 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:10:53 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:10:53 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:10:53 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:10:53 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 6::
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 10::
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 11::
+2018-02-10 11:10:53 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 19::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 26::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 28::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 31::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 41::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 50::                    </systemPropertyVariables>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 51::                </configuration>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 52::            </plugin>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 53::        </plugins>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 54::    </build>
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 55::
+2018-02-10 11:10:54 INFO  Common_Functions:43 - 56::</project>
+2018-02-10 11:10:54 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:10:54 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:10:54 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:10:54 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:10:54 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:11:52 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:11:52 INFO  Common_Functions:29 - .idea
+2018-02-10 11:11:52 INFO  Common_Functions:29 - Log
+2018-02-10 11:11:52 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:11:52 INFO  Common_Functions:29 - src
+2018-02-10 11:11:52 INFO  Common_Functions:29 - target
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:11:52 INFO  Common_Functions:69 - 30
+2018-02-10 11:11:52 INFO  Common_Functions:69 - 32
+2018-02-10 11:11:52 INFO  Common_Functions:69 - 38
+2018-02-10 11:11:52 INFO  Common_Functions:69 - 49
+2018-02-10 11:11:52 INFO  AA:25 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:11:52 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:11:52 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:11:52 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:11:52 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 6::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 10::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 11::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 19::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 26::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 28::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 31::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 41::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 50::                        <!--<log4j.configuration>log4j.properties</log4j.configuration>--> <!-- Was Default -->
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 51::                    </systemPropertyVariables>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 52::                </configuration>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 53::            </plugin>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 54::        </plugins>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 55::    </build>
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 56::
+2018-02-10 11:11:52 INFO  Common_Functions:43 - 57::</project>
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:11:52 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:14:53 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:14:53 INFO  Common_Functions:29 - .idea
+2018-02-10 11:14:53 INFO  Common_Functions:29 - Log
+2018-02-10 11:14:53 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:14:53 INFO  Common_Functions:29 - src
+2018-02-10 11:14:53 INFO  Common_Functions:29 - target
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:14:53 INFO  Common_Functions:69 - 30
+2018-02-10 11:14:53 INFO  Common_Functions:69 - 32
+2018-02-10 11:14:53 INFO  Common_Functions:69 - 38
+2018-02-10 11:14:53 INFO  Common_Functions:69 - 49
+2018-02-10 11:14:53 INFO  AA:25 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:14:53 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:14:53 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:14:53 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:14:53 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 6::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 10::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 11::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 19::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 26::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 28::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 31::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 41::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 50::                        <!--<log4j.configuration>log4j.properties</log4j.configuration>--> <!-- Was Default -->
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 51::                    </systemPropertyVariables>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 52::                </configuration>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 53::            </plugin>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 54::        </plugins>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 55::    </build>
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 56::
+2018-02-10 11:14:53 INFO  Common_Functions:43 - 57::</project>
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:14:53 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:20:21 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:20:21 INFO  Common_Functions:29 - .idea
+2018-02-10 11:20:21 INFO  Common_Functions:29 - Log
+2018-02-10 11:20:21 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:20:21 INFO  Common_Functions:29 - src
+2018-02-10 11:20:21 INFO  Common_Functions:29 - target
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:20:21 INFO  Common_Functions:69 - 30
+2018-02-10 11:20:21 INFO  Common_Functions:69 - 32
+2018-02-10 11:20:21 INFO  Common_Functions:69 - 38
+2018-02-10 11:20:21 INFO  Common_Functions:69 - 49
+2018-02-10 11:20:21 INFO  AA:28 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:20:21 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:20:21 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:20:21 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:20:21 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 6::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 10::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 11::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 19::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 26::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 28::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 31::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 41::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 50::                        <!--<log4j.configuration>log4j.properties</log4j.configuration>--> <!-- Was Default -->
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 51::                    </systemPropertyVariables>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 52::                </configuration>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 53::            </plugin>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 54::        </plugins>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 55::    </build>
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 56::
+2018-02-10 11:20:21 INFO  Common_Functions:43 - 57::</project>
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:20:21 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:23:34 INFO  Common_Functions:29 - .gitignore
+2018-02-10 11:23:34 INFO  Common_Functions:29 - .idea
+2018-02-10 11:23:34 INFO  Common_Functions:29 - Log
+2018-02-10 11:23:34 INFO  Common_Functions:29 - pom.xml
+2018-02-10 11:23:34 INFO  Common_Functions:29 - src
+2018-02-10 11:23:34 INFO  Common_Functions:29 - target
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.gitignore
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\.idea
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\Log
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\pom.xml
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\target
+2018-02-10 11:23:34 INFO  Common_Functions:69 - 30
+2018-02-10 11:23:34 INFO  Common_Functions:69 - 32
+2018-02-10 11:23:34 INFO  Common_Functions:69 - 38
+2018-02-10 11:23:34 INFO  Common_Functions:69 - 49
+2018-02-10 11:23:34 INFO  AA:28 - [        <sourceDirectory>src/main/java</sourceDirectory>,         <testSourceDirectory>src/test/java</testSourceDirectory>,                 <directory>src/main/resources</directory>,                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>]
+2018-02-10 11:23:34 INFO  Common_Functions:36 -         <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:23:34 INFO  Common_Functions:36 -         <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:23:34 INFO  Common_Functions:36 -                 <directory>src/main/resources</directory>
+2018-02-10 11:23:34 INFO  Common_Functions:36 -                         <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 1::<?xml version="1.0" encoding="UTF-8"?>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 2::<project xmlns="http://maven.apache.org/POM/4.0.0"
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 3::         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 4::         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 5::    <modelVersion>4.0.0</modelVersion>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 6::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 7::    <groupId>Deepa-test</groupId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 8::    <artifactId>Deepa_Test</artifactId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 9::    <version>1.0-SNAPSHOT</version>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 10::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 11::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 12::    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 13::    <dependencies>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 14::        <dependency>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 15::            <groupId>log4j</groupId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 16::            <artifactId>log4j</artifactId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 17::            <version>1.2.17</version>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 18::        </dependency>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 19::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 20::        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 21::        <dependency>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 22::            <groupId>com.googlecode.json-simple</groupId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 23::            <artifactId>json-simple</artifactId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 24::            <version>1.1</version>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 25::        </dependency>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 26::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 27::    </dependencies>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 28::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 29::    <build>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 30::        <sourceDirectory>src/main/java</sourceDirectory>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 31::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 32::        <testSourceDirectory>src/test/java</testSourceDirectory>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 33::        <resources>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 34::            <resource>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 35::                <directory>resources</directory>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 36::            </resource>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 37::            <resource>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 38::                <directory>src/main/resources</directory>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 39::            </resource>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 40::        </resources>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 41::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 42::        <plugins>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 43::            <plugin>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 44::                <groupId>org.apache.maven.plugins</groupId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 45::                <artifactId>maven-surefire-plugin</artifactId>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 46::                <version>2.14.1</version>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 47::                <configuration>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 48::                    <systemPropertyVariables>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 49::                        <log4j.configuration>src/main/resources/log4j.properties</log4j.configuration>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 50::                        <!--<log4j.configuration>log4j.properties</log4j.configuration>--> <!-- Was Default -->
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 51::                    </systemPropertyVariables>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 52::                </configuration>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 53::            </plugin>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 54::        </plugins>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 55::    </build>
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 56::
+2018-02-10 11:23:34 INFO  Common_Functions:43 - 57::</project>
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile1.txt
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile2.txt
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile3.txt
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile4.txt
+2018-02-10 11:23:34 INFO  Common_Functions:36 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\InputData\InputFile5.txt
+2018-02-10 11:23:34 INFO  AA:37 - C:\Idea_Proj_Deepa\Deepa_Test\src\main\resources\OutPutData\OP_File1.txt

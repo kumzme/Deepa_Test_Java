@@ -56,6 +56,17 @@ public class Common_Functions {
         return file_Path_Arry;
     }
 
+    public static ArrayList<String>  searchArryList(ArrayList<String> ArryList, String srcString)
+    {
+        ArrayList<String > a1 =  new ArrayList<String>();
+          for (int i = 0; i<ArryList.size() ;i++) {
+            if (ArryList.get(i).contains(srcString)){
+               a1.add(ArryList.get(i));
+             }
+          }
+       return a1;
+    }
+
     public static ArrayList<String> file_Read(String path, String src_Val) throws Exception {
         File my_file = new File(path);
         BufferedReader br = new BufferedReader(new FileReader(my_file));

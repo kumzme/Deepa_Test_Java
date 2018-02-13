@@ -1,13 +1,16 @@
 package Deepa.Driver;
 
 import Deepa.Utils.File_Utils;
-import org.apache.log4j.BasicConfigurator;
+import com.esotericsoftware.yamlbeans.YamlReader;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
+import org.yaml.snakeyaml.Yaml;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Map;
+
 import static Deepa.Utils.Gen_Utils.currDir;
 
 public class Common_Functions {
@@ -67,6 +70,20 @@ public class Common_Functions {
        return a1;
     }
 
+    public static String searchAnotherArryList(ArrayList<String> ArryList, String srcString)
+    {
+        String  a1 =  null;
+        for (String a2 : ArryList ){
+
+            if(a2.contains(srcString)){
+                 a1 = a2;
+
+            }
+
+        }
+        return a1;
+    }
+
     public static ArrayList<String> file_Read(String path, String src_Val) throws Exception {
         File my_file = new File(path);
         BufferedReader br = new BufferedReader(new FileReader(my_file));
@@ -119,6 +136,16 @@ public class Common_Functions {
           json_return.put(file_path,j);
       }
       return json_return;
+    }
+    public  static Map<String,Object> read_Yaml_File(String file_Path) throws Exception{
+            //        Object aa = new YamlReader(new FileReader(file_Path)).read();
+            //        Map a1 = (Map)aa;
+            //        return a1;
+        Yaml aa = new Yaml();
+        aa.load(new FileReader(file_Path));
+
+           return  (Map<String,Object>) new YamlReader(new FileReader(file_Path)).read();
+
     }
 
 }

@@ -93,7 +93,7 @@ public class Common_Functions {
         int line = 0;
         while ((my_Text = br.readLine()) != null) {
             line++;
-            if (my_Text.contains(my_Text)) {
+            if (my_Text.contains(Src_Val)) {
                 j.put(line, my_Text);
             }
         }

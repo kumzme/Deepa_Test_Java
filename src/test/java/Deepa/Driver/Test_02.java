@@ -26,8 +26,6 @@ public class Test_02 {
         display_All_Values_In_Array(file_paths);
         String a2  = searchArryList(file_paths,"src");
         l.info(a2);
-//        JSONObject a3 = file_Read_Json(file_paths.get(4),"resources") ;
-//        display_All_Values_In_Array(a3);
         String a3 = searchArryList(file_paths,"git");
         JSONObject a4 = file_Read_Json(a3, "Crashlytics");
         File a1 = write_File_Json(op_Data_Folder + "/op2.json",a4);

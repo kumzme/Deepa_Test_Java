@@ -56,12 +56,12 @@ public class Common_Functions {
         return file_Path_Arry;
     }
 
-    public static ArrayList<String>  searchArryList(ArrayList<String> ArryList, String srcString)
+    public static String searchArryList(ArrayList<String> ArryList, String srcString)
     {
-        ArrayList<String > a1 =  new ArrayList<String>();
+        String  a1 =  null;
           for (int i = 0; i<ArryList.size() ;i++) {
             if (ArryList.get(i).contains(srcString)){
-               a1.add(ArryList.get(i));
+                a1 = ArryList.get(i);
              }
           }
        return a1;

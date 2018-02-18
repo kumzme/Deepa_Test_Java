@@ -1,5 +1,6 @@
 package Deepa.Driver;
 
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
@@ -80,7 +81,7 @@ public static void condition_st(){
   {
       if (a > 0)
       {
-        if(a < 1)
+        if (a < 1)
         {
             l.info("smallest positive number");
         }
@@ -89,9 +90,9 @@ public static void condition_st(){
             l.info("largest positive number");
         }
         else
-         {
-           l.info("postive number")
-          }
+        {
+           l.info("postive number");
+        }
       }
 
       else if (a < 0)
@@ -114,13 +115,127 @@ public static void condition_st(){
           l.info("number is zero");
       }
   }
+//keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.
+    public static String getDayInt(int day){
 
+    String dayName = " " ;
+    switch (day)
+    {
+        case 1:
+            dayName = "Monday";
+            break;
+        case 2:
+            dayName = "Tuesday";
+            break;
+        case 3:
+            dayName = "Wednesday";
+            break;
+        case 4:
+            dayName = "Thrusday";
+            break;
+        case 5:
+            dayName = "Friday";
+            break;
+        case 6:
+            dayName = "Saturday";
+            break;
+        case 7:
+            dayName = "Sunday";
+            break;
+        default:
+            dayName = "Invalid day ran";
+      }
+     return dayName ;
+    }
+// reads in two floating-point numbers and tests whether they are the same up to three decimal places
+    public static void floatingNumbers(double a, double b)
+    {
+
+    a = Math.round(a * 1000);
+    a = a/1000;
+    b = Math.round(b * 1000);
+    b = b/1000;
+
+    if ( a == b)
+        {
+            l.info(" both a and b are same up to three decimal");
+        }
+    else
+        {
+            l.info("a and b are not same up to three decimal");
+        }
+
+    }
+//find the number of days in a month.
+  public  static  void numberOfDaysMonth(int number){
+
+    int number_Of_days =  0 ;
+    String monthName = "" ;
+    switch(number)
+    {
+        case 1 :
+          number_Of_days = 31;
+          monthName      =  "January" ;
+        break;
+        case 2 :
+          number_Of_days =  28;
+          monthName      =  "Feburary" ;
+         break;
+        case 3 :
+            number_Of_days = 31;
+            monthName      =  "March" ;
+            break;
+        case 4 :
+            number_Of_days =  30;
+            monthName      =  "April" ;
+            break;
+        case 5 :
+            number_Of_days = 31;
+            monthName      =  "May" ;
+            break;
+        case 6 :
+            number_Of_days =  30;
+            monthName      =  "June" ;
+            break;
+        case 7 :
+            number_Of_days = 31;
+            monthName      =  "July" ;
+            break;
+        case 8 :
+            number_Of_days =  31;
+            monthName      =  "August" ;
+            break;
+        case 9 :
+            number_Of_days = 30;
+            monthName      =  "September" ;
+            break;
+        case 10 :
+            number_Of_days =  30;
+            monthName      =  "October" ;
+            break;
+        case 11 :
+            number_Of_days = 30;
+            monthName      =  "November" ;
+            break;
+        case 12 :
+            number_Of_days =  31;
+            monthName      =  "December" ;
+            break;
+
+     }
+     l.info(monthName + "has number of days " + number_Of_days);
+
+  }
 public static void main(String args[]){
 
     condition_st();
     quadratic_math();
     greatest_Number(30,45,100);
     float_ifcond(1211);
+    String dayName = getDayInt(7);
+    l.info(dayName);
+    floatingNumbers(1234,1235);
+    numberOfDaysMonth(12);
 
 }
 

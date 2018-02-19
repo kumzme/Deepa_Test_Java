@@ -228,6 +228,24 @@ public static void condition_st(){
   }
   //takes the user to provide a single character from the alphabet. Print Vowel or Consonant, depending on the user input. If the user input is not a letter (between a and z or A and Z), or is a string of length > 1, print an error message
 
+    public static void alphabetInput(String alpInput)
+    {
+        String input = alpInput.toLowerCase() ;
+        Boolean vowel = input.equals("a") || input.equals("e")|| input.equals("i")||input.equals("o")||input.equals("u");
+
+        if(input.length() > 0 )
+        {
+            l.info("input is not single character");
+        }
+        else if(vowel)
+        {
+            l.info("input is a vowel");
+        }
+        else
+        {
+            l.info("input is a constant");
+        }
+    }
 public static void main(String args[]){
 
     condition_st();
@@ -238,7 +256,7 @@ public static void main(String args[]){
     l.info(dayName);
     floatingNumbers(1234,1235);
     numberOfDaysMonth(12);
-
+    alphabetInput("mn");
 }
 
 }

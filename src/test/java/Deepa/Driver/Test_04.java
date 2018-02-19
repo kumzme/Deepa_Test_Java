@@ -12,9 +12,9 @@ public class Test_04 {
 
 //get a number from the user and print whether it is positive or negative
 
-public static void condition_st(){
-    Scanner my_Scan = new Scanner(System.in);
-    int input = my_Scan.nextInt();
+public static void condition_st(int input){
+    //Scanner my_Scan = new Scanner(System.in);
+    //int input = my_Scan.nextInt();
     if(input > 0)
     {
         l.info("input data is positive");
@@ -30,12 +30,12 @@ public static void condition_st(){
 }
 //Java program to solve quadratic equations (use if, else if and else)
 
-  public static void quadratic_math()
+  public static void quadratic_math(double a,double b,double c)
   {
-    Scanner my_Scan1 = new Scanner(System.in);
-    double a = my_Scan1.nextInt();
-    double b = my_Scan1.nextInt();
-    double c = my_Scan1.nextInt();
+    //Scanner my_Scan1 = new Scanner(System.in);
+    //double a = my_Scan1.nextInt();
+    //double b = my_Scan1.nextInt();
+    //double c = my_Scan1.nextInt();
 
     //res = −b ± √(b2 − 4ac) 2a.
     double res =  b*b - 4.0 * a* c;
@@ -284,22 +284,257 @@ public static void condition_st(){
    // input 5 numbers from keyboard and find their sum and average
     public static void  numbersSumAndAvg(int a,int b,int c,int d,int e){
 
+    int sum = a +b+c+d+e;
+    int Avg = sum/5 ;
+    l.info("sum of 5 input is" + sum + "Avg of 5 inputs is "+ Avg);
     }
+   // display the cube of the number upto given an integer
+     public  static void cubeOfNumber(int a) {
+     double cube = 0;
+    for ( int i = 1 ; i< a;i++)
+
+      l.info(" Number is " + i);
+      //cube = i * i * i ;
+      //l.info("cube for each input" +i*i*i);
+     }
+
+   //  display the multiplication table of a given integer
+    public static void multInt(int a){
+    for (int i = 0 ; i < a ; i++){
+
+        l.info("number is "+ i + "multiplication table" + i* a);
+     }
+    }
+   //display the n terms of odd natural number and their sum
+   public static void oddNatural(int a){
+    int sum = 0;
+    for (int i = 1; i < a ;i++)
+    {
+        int odd = i*2-1;
+        l.info(odd);
+        sum = sum +odd ;
+        l.info(sum);
+    }
+   }
+   // display the pattern like right angle triangle with a number.
+
+     public static void rightAngleNum(int a) {
+
+         for (int i = 1; i <= a ; i++){
+            for(int j = 1; j <=i; j++){
+             l.info( j);
+             l.info(" ");
+           }
+         }
+     }
+     // make such a pattern like right angle triangle with a number which will repeat a number in a row
+    public static void rightAngleTri(int a){
+
+     int i,j;
+     for (i =1 ; i <=a ;i++){
+         for(j= i+1; j <=i ;j++){
+             l.info(j);
+             l.info("");
+             l.info(j);
+         }
+     }
+    }
+//Java to make such a pattern like right angle triangle with number increased by 1
+    public static void rightAngTri1(int a){
+
+    int i ,j,k=1;
+    for(i = 1; i<=a;i++){
+        for(j = 2; j<=i;j++){
+            l.info(k++);
+            l.info(" ");
+            //l.info(j+1);
+        }
+     }
+    }
+  // make such a pattern like a pyramid with a number which will repeat the number in the same row
+  public static void pyramidNumber(int noofrows){
+    int i , j;
+    int rowCount = 1;
+    for (i = noofrows; i > 0; i--){
+
+        for (j= 1;j<=i;j++){
+            l.info(" ");
+        }
+        for (j = 1; j <= rowCount ;j++){
+            l.info(rowCount + " ");
+        }
+        rowCount++;
+    }
+
+  }
+//Java to print the Floyd's Triangle
+    public static void FloydTri(int a) {
+
+    for (int i = 0 ; i <= a; i++)
+    {
+        String row_string = " ";
+        String Starting_Column = "";
+        String Current_Val = " ";
+        int Previous_Value = 0;
+        if (i == 0) {
+            Starting_Column = "0";
+            }
+            else
+            {
+            Starting_Column = "1";
+
+            }
+        for (int j = 0; j <= i; j++)
+        {
+            if (j == 0)
+            {
+                 if (Starting_Column.contains("0"))
+                {
+                Previous_Value = 0;
+                }
+                else
+                {
+                  Previous_Value = 1;
+                }
+                  row_string = Starting_Column;
+
+             }
+              else
+              if (Previous_Value == 0)
+             {
+
+                Previous_Value = 1;
+                Current_Val = "1";
+
+              }
+            else
+                {
+                Previous_Value = 0;
+                Current_Val = "0";
+               }
+        row_string = row_string + Current_Val;
+        }
+
+        l.info(row_string);
+    }
+
+
+    }
+
+ //reads an integer and check whether it is negative, zero, or positive
+    public static void Cond_Exercise_27(int a){
+
+    if(a > 0)
+    {
+       l.info("a is positive" +a);
+    }
+    else if(a == 0)
+    {
+        l.info("a is zero" +a);
+    }
+    else
+    {
+        l.info("a is negative" + a);
+    }
+
+    }
+//reads a floating-point number. If the number is zero it prints "zero", otherwise, print "positive" or "negative". Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000
+    public static void Cond_Exercise_28(double a){
+    if (a>0){
+       l.info("a is postive" + a);
+        if ((Math.abs(a)) > 100000)
+        {
+            l.info("abs value is more thans 100000" + Math.abs(a));
+        }
+        if ((Math.abs(a)) < 0)
+        {
+            l.info("abs is less than 1" + Math.abs(a) );
+        }
+    }
+    else if (a < 0){
+        l.info(" a is Negative" + a);
+    }
+    else
+        {
+            l.info("a is zero " + a);
+        }
+
+    }
+//reads an positive integer and count the number of digits the number
+public static void Cond_Exercise_29(int a){
+    int count = 0;
+    for(count = 0 ; a>0;a = a/10){
+
+        count = count + 1;
+        }
+    l.info(count);
+
+  }
+ //accepts three numbers and prints "All numbers are equal" if all three numbers are equal, "All numbers are different" if all three numbers are different and "Neither all are equal or different" otherwise
+
+   public static void Cond_Exercise_30(int a,int b, int c) {
+
+       if ((a == b) && (b == c)) {
+           l.info("all are equal");
+       } else if ((a == b) || (b == c) || (c == a)) {
+           l.info("all are neither equal nor different");
+       } else {
+           l.info("all are different");
+       }
+   }
+//accepts three numbers from the user and prints "increasing" if the numbers are in increasing order, "decreasing" if the numbers are in decreasing order, and "Neither increasing or decreasing order" otherwise. Go to the editor
+
+  public static void Cond_Exercise_31(int a, int b, int c){
+    if ((a < b) && (b < c))
+    {
+     l.info("the numbers aew in increasing order");
+    }
+    else if ( (a> b) && (b < c) )
+    {
+        l.info( " numbers are neither decreasing not increasing order");
+     }
+     else{
+        l.info(" the numbers are decreasing order");
+    }
+  }
+ //accepts two floating­point numbers and checks whether they are the same up to two decimal places
+ public static void Cond_Exercise_32(double a,double b) {
+     if (Math.abs(a - b) <= 0.01) {
+         l.info("numbers are equal upto two deceimal");
+     } else
+         l.info("numbers are diff");
+ }
 public static void main(String args[]){
 
-    condition_st();
-    quadratic_math();
-    greatest_Number(30,45,100);
-    float_ifcond(1211);
-    String dayName = getDayInt(7);
-    l.info(dayName);
-    floatingNumbers(1234,1235);
-    numberOfDaysMonth(12);
-    alphabetInput("mn");
-    leapYear(2014);
-    displayNumber();
-    naturalNumbers(10);
-    numbersSumAndAvg()
+
+    //condition_st( 1);
+    //quadratic_math(2,3,5);
+    //greatest_Number(30,45,100);
+    //float_ifcond(1211);
+    //String dayName = getDayInt(7);
+    //l.info(dayName);
+    //floatingNumbers(1234,1235);
+    //numberOfDaysMonth(12);
+    //alphabetInput("mn");
+    //leapYear(2014);
+    //displayNumber();
+    //naturalNumbers(10);
+    //numbersSumAndAvg(15,10,5,-2,-3);
+    //cubeOfNumber(4);
+    //multInt(5);
+    //oddNatural(3);
+   // rightAngleNum(6);
+   // rightAngleTri(5);
+   // rightAngTri1(5);
+   // pyramidNumber(5);
+   // FloydTri(5);
+   //Cond_Exercise_27(0);
+   // Cond_Exercise_28(234);
+    //Cond_Exercise_29(12345);
+   //Cond_Exercise_30(1234,2345,3456);
+   //Cond_Exercise_31(1234,15234,5234);
+   Cond_Exercise_32(1234,2345) ;
 }
 
 }
+

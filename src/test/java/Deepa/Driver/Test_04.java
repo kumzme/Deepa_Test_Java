@@ -281,6 +281,10 @@ public static void condition_st(){
       }
        l.info(sum);
    }
+   // input 5 numbers from keyboard and find their sum and average
+    public static void  numbersSumAndAvg(int a,int b,int c,int d,int e){
+
+    }
 public static void main(String args[]){
 
     condition_st();
@@ -295,6 +299,7 @@ public static void main(String args[]){
     leapYear(2014);
     displayNumber();
     naturalNumbers(10);
+    numbersSumAndAvg()
 }
 
 }

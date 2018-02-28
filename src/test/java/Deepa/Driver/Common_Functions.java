@@ -1,12 +1,10 @@
 package Deepa.Driver;
-
 import Deepa.Utils.File_Utils;
 import com.esotericsoftware.yamlbeans.YamlReader;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.json.simple.JSONObject;
 import org.yaml.snakeyaml.Yaml;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Map;
@@ -14,6 +12,7 @@ import java.util.Map;
 import static Deepa.Utils.Gen_Utils.currDir;
 
 public class Common_Functions {
+
     private static  final String op_Data_Folder = currDir() + "/src/main/resources/OutPutData";
     private static  final String Ip_Data_Folder = currDir() + "/src/main/resources/InputData";
     private static final Logger l = LogManager.getLogger(Common_Functions.class.getName());
@@ -27,7 +26,6 @@ public class Common_Functions {
 
 
     public static void display_All_Values_In_Array(String[] a1) {
-
         for (String val : a1) {
             l.info(val);
         }
@@ -74,12 +72,9 @@ public class Common_Functions {
     {
         String  a1 =  null;
         for (String a2 : ArryList ){
-
             if(a2.contains(srcString)){
                  a1 = a2;
-
             }
-
         }
         return a1;
     }
@@ -95,7 +90,6 @@ public class Common_Functions {
             if (my_Text.contains(src_Val)) {
                 match_Val.add(my_Text);
                 l.info(line);
-
             }
         }
         return match_Val;
@@ -137,6 +131,7 @@ public class Common_Functions {
       }
       return json_return;
     }
+
     public  static Map<String,Object> read_Yaml_File(String file_Path) throws Exception{
             //        Object aa = new YamlReader(new FileReader(file_Path)).read();
             //        Map a1 = (Map)aa;

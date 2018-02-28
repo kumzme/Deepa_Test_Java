@@ -17,6 +17,9 @@ public class Test_03 {
         Map a10 = read_Yaml_File(Ip_Data_Folder + "/SampleYml.yml");
 
         l.info(a10.get("test"));
+
+
+        l.info( ((Map)(((Map)((Map)a10.get("test")).get("post")).get("bundle exec rake jasmine"))).get("environment") );
         Map a1 = (Map)a10.get("test");
 
         Map a2 = (Map)a1.get("post");

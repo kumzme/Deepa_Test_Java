@@ -2,9 +2,12 @@ package Deepa.Driver;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import sun.awt.image.ImageWatched;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 
 public class Test_06
 {
@@ -70,11 +73,78 @@ public class Test_06
         l.info(a1);
 
     }
+    //Java program to display the elements and their positions in a linked list
+    public static void Collection_LinkedList_22_10(LinkedList<String>a1){
+        l.info(a1.get(1));
+        l.info(a1.element() );
+        for(int i = 0; i < a1.size() ; i++){
+            l.info(a1.get(i) );
+        }
+    }
+    //Java program to remove a specified element from a linked list
+    public static void Collection_LinkedList_22_11(LinkedList<String>a1){
+        l.info("before removing " + a1);
+        a1.remove("1");
+        l.info("after removing 1" + a1);
+        a1.remove(2);
+        l.info("after removing 2" + a1);
+    }
+    //Java program to remove all the elements from a linked list.
+    public static void Collection_LinkedList_22_12(LinkedList<String>a1){
+        a1.clear();
+    }
+    //Java program of swap two elements in an linked list.
+    public static void Collection_LinkedList_22_13(LinkedList<String>a1){
+        Collections.swap(a1,0,1);
+        l.info(a1);
+    }
+    //Java program to shuffle the elements in a linked list
+    public static void Collection_LinkedList_22_14(LinkedList<String>a1){
+        Collections.shuffle(a1);
+        l.info(a1);
+    }
+    //Java program to join two linked lists
+    public static void Collection_LinkedList_22_15(LinkedList<String>a1,LinkedList<String>a2){
+        LinkedList<String> a3 = new LinkedList<String>();
+        a3.addAll(a1);
+        a3.addAll(a2);
+        l.info(a3);
+    }
+    //Java program to clone an linked list to another linked list
+    public static void Collection_LinkedList_22_16(LinkedList<String>a1){
+        a1.clone();
+        l.info(a1);
+    }
+    //Java program to retrieve but does not remove, the first element of a linked list.
+   // public static void Collection_LinkedList_22_20(LinkedList<String >a1) {
+   //     a1.peekFirst();
+   // }
+    //Java program to check if a particular element exists in a linked list
+    public static void Collection_LinkedList_22_22(LinkedList<String>a1){
+
+        if(a1.contains("1")) {
+            l.info("exist");
+        }
+    }
+    //A palindrome is a word or phrase that reads the same forward and backward
+    public static void Collection_ListIterator_palin(LinkedList<String>a1){
+        ListIterator<String> For_itr = a1.listIterator();
+        ListIterator<String> Back_itr = a1.listIterator(a1.size());
+        boolean flag = false;
+        while (For_itr.hasNext() && Back_itr.hasPrevious() ) {
+            if (For_itr.next() == Back_itr.previous()) {
+                flag = true;
+                l.info(" number is palindrome");
+            } else{
+                l.info("number is not palindrome");
+        }
+        }
+    }
     //Java program to get the first and last occurrence of the specified elements in a linked list
     public static void main(String[] args){
 
         LinkedList<String> a1 = new LinkedList<String>();
-        a1.add("new Exercise 1");
+        a1.add(" 1");
         a1.add("new exercise 2");
         a1.add("new exercise 3");
         a1.add("new exercise 4");
@@ -91,6 +161,25 @@ public class Test_06
         a11.add("4");
         a11.add(" 5");
       Collection_LinkedList_22_09(a11);
+      Collection_LinkedList_22_10(a11);
+      Collection_LinkedList_22_11(a11);
+      Collection_LinkedList_22_12(a11);
+      Collection_LinkedList_22_13(a1);
+      Collection_LinkedList_22_14(a1);
+        LinkedList<String> a12 = new LinkedList<String>();
+        a11.add("1oo");
+        a11.add(" 200");
+        a11.add(" 300");
+        a11.add("400");
+        a11.add(" 500");
+      Collection_LinkedList_22_15(a1,a12);
+      Collection_LinkedList_22_16(a1);
+      Collection_LinkedList_22_22(a1);
+      LinkedList<String> palindrome = new LinkedList<String>();
+      palindrome.add("abcba");
+
+      Collection_ListIterator_palin(palindrome);
+
 
    }
 }

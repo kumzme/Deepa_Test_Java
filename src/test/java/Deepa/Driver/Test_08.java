@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 import java.util.TreeSet;
 
 public class Test_08 {
-    private static final Logger l = LogManager.getLogger(Test_05.class.getName());
+    private static final Logger l = LogManager.getLogger(Test_08.class.getName());
 
     public static void Collection_Treeset(TreeSet<Integer > a1){
         l.info(a1);
@@ -14,6 +14,7 @@ public class Test_08 {
         l.info(a1.first());
         l.info(a1.tailSet(2) );
         l.info(a1.headSet(1));
+        l.info(a1.equals(22));
     }
     public static void main(String[] args){
         TreeSet<Integer> a1 = new TreeSet<Integer>();

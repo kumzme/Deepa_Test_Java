@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class Test_07 {
-    private static final Logger l = LogManager.getLogger(Test_05.class.getName());
+    private static final Logger l = LogManager.getLogger(Test_07.class.getName());
     //Hashset : no duplicate
     public static void Collection_HashSet(HashSet<String>a1){
      l.info(a1);

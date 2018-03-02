@@ -129,14 +129,14 @@ public class Test_06
     //A palindrome is a word or phrase that reads the same forward and backward
     public static void Collection_ListIterator_palin(LinkedList<String>a1){
         ListIterator<String> For_itr = a1.listIterator();
-        ListIterator<String> Back_itr = a1.listIterator(a1.size());
+        ListIterator<String> Back_itr = a1 .listIterator(a1.size());
         boolean flag = false;
         while (For_itr.hasNext() && Back_itr.hasPrevious() ) {
             if (For_itr.next() == Back_itr.previous()) {
                 flag = true;
-                l.info(" number is palindrome");
+                l.info(" Str is palindrome");
             } else{
-                l.info("number is not palindrome");
+                l.info("Str is not palindrome");
         }
         }
     }
